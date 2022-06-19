@@ -1,0 +1,3 @@
+[submodule "themes/volukib"]
+	path = themes/volukib
+	url = git@github.com:bikulov/volukib-hugo-theme.git

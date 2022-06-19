@@ -1,0 +1,24 @@
+baseURL = "https://ra.msk.ru/"
+languageCode = "ru"
+title = "ЖК Резиденции Архитекторов"
+
+theme = "volukib"
+
+[menu]
+  [[menu.main]]
+    url = "/"
+    name = "Главная"
+    weight = 1
+  [[menu.main]]
+    url = "/news/"
+    name = "Новости"
+    weight = 2
+  [[menu.main]]
+    url = "/faq/"
+    name = "ЧаВо"
+    weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
